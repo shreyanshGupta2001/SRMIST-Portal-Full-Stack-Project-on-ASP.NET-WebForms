@@ -1,0 +1,454 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* 
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+.TopHead
+{
+    background-color: #1F75FE;
+    color: white;
+    height: 26vh;
+}
+.THsubtext {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium !important;
+}
+.SRMlogo {
+    margin-top: 20px;
+}
+.bottomFooter {
+    background-color:darkseagreen;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    height: 200px;
+}
+.btmfootcontent {
+    font-size: smaller;
+}
+.row {
+    display: flex !important;
+}
+.col {
+    font-family: 'Roboto', sans-serif !important;
+    flex-basis: 100%;
+    color: white;
+}
+.NavBar
+{
+    padding: 2px;
+}
+.NbContents
+{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.bar {
+    flex-basis: 100%;
+    background-color: #1F75FE;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    margin: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size:small !important;
+}
+.bar:hover
+{
+    background-color:red;
+}
+body 
+{
+    background-image: url('../White.jpg');
+}
+.SRMuniImage 
+{
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: white;
+}
+.log
+{
+    color: white !important; 
+}
+.reg
+{
+    color: white !important;
+}
+.TableStdReg {
+    background-color: white;
+    border-color: white;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+/*.TableStdReg:hover
+{
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}*/
+.TableTeaReg {
+    background-color: white;
+    border-color: white;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+/*.TableTeaReg:hover
+{
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}*/
+.tblheading {
+    color: #1F75FE;
+}
+.btn {
+    width: 20%;
+    background-color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+.btn:hover 
+{
+    color: white;
+    background-color: #1F75FE;
+    border-color: #1F75FE;
+}
+.textbox {
+    height: 30px;
+
+}
+.textbox:hover 
+{
+    border-color: #1F75FE;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover
+{
+    background-color: red;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+ }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #1F75FE;
+    min-width: 127px;
+    /*width: 100%;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: white;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover 
+{
+    background-color: red;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn 
+{
+    background-color: red;
+}
+
+#LoginButton
+{
+    min-width: 107.5px;
+}
+#TableLoginStd
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#TableLoginTea
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.LoginStdwelContents {
+    width: 75%;
+    margin: auto;
+    /*background-color: #f5f5f5;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    padding: 5px;
+}
+.gridviewStd
+{
+    background-color:white;
+}
+.welcomeHead {
+    color: #1F75FE;
+    font-family: 'Roboto', sans-serif;
+}
+#TableEditStd {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.LoginTeawelContents {
+    width: 75%;
+    margin: auto;
+    /*background-color: #f5f5f5;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+.StdList {
+    width: 95%;
+    margin: auto;
+    /*background-color: #f5f5f5;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+.btnStdbyTea {
+    background-color: white;
+    /*padding: 10px;*/
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+.btnStdbyTea:hover 
+{
+        background-color: #1F75FE;
+        color: white;
+}
+.Circular {
+    width: 65%;
+    margin: auto;
+    /*background-color: #f5f5f5;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+.rowcir
+{
+    display: flex;
+    border-style: double;
+    width: 60%;
+}
+.colcir
+{
+    flex-basis: 25%;
+}
+.infocir {
+    border-style: solid;
+    width: 50%;
+    padding: 8px;
+}
+.infocirhead
+{
+    color: red;
+}
+.infocirbtm {
+    border-style: solid;
+    width: 50%;
+    padding: 5px;
+    background-color: #6CB4EE;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+.AssignmentList {
+    width: 35%;
+    margin: auto;
+    /*background-color: #f5f5f5;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+#btnStdDelete
+{
+    width: 40%;
+}
+.classabovefooter
+{
+    height: 25vh;
+}
+.latestnews {
+    width: 30%;
+    margin: auto;
+    /*background-color: #f5f5f5;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+.latnewsHead {
+    color: #1F75FE;
+}
+.latnews {
+    color: black;
+}
+.latnews:hover 
+{
+    color: #1F75FE;
+}
+#GridView1
+{
+    color: black;
+}
+.Container
+{
+    display: flex;
+}
+.containercon
+{
+    flex-basis: 30%;
+}
+.loginTeaWelcomeFeatures {
+    background-color: white;
+    width: 500px;
+}
+.btnTea {
+    width: 300px;
+    background-color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+.btnTea:hover 
+{
+    color: white;
+    background-color: #1F75FE;
+    border-color: #1F75FE;
+}
+.headingLoginTea
+{
+    margin: auto;
+    width: 50%;
+}
+.lblSesID
+{
+    color: black;
+}
+.timetable {
+    padding: 20px;
+    width: 1500px;
+}
+.gridvStdbyTea
+{
+    color: black;
+    padding: 20px;
+    width: 100%;
+}
+.stdlist
+{
+    justify-content: center;
+    margin: auto;
+    margin-right: 100px;
+    padding: 20px;
+    margin-top: 60px;
+    color: black;
+}
+.DisplayStdbyTea {
+    width: 70%;
+    margin: auto;
+    /*background-color: #f5f5f5;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+.AssignUploadSection
+{
+    color: black;
+}
+.TableUpdateTea
+{
+    color: black;
+}
+.loginStdWelcomeFeatures {
+    background-color: white;
+    width: 500px;
+}
+.btnStd {
+    width: 300px;
+    background-color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+.btnStd:hover 
+{
+    color: white;
+    background-color: #1F75FE;
+    border-color: #1F75FE;
+}
+.DisplayAssign {
+    width: 70%;
+    margin: auto;
+    /*background-color: #f5f5f5;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+.DisplayStdDetails {
+    width: 82%;
+    margin: auto;
+    /*background-color: #f5f5f5;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    padding: 13px;
+}
+.DisplayStdAttendance {
+    width: 70%;
+    margin: auto;
+    /*background-color: #f5f5f5;*/
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+.headofeat
+{
+    color: black;
+}
+.assign {
+    color: black;
+}
+#delstdbydean
+{
+    padding: 20px;
+    width: 62%;
+}
+#notupload
+{
+    padding: 20px;
+    width: 70%;
+}

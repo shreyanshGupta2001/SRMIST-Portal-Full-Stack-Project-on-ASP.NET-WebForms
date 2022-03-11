@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.Master.cs" Inherits="SRMISTportal.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>SRMIST Portal</title>
+    <%--<link href="Content/bootstrap.css" rel="stylesheet" />--%>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="CSS/StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            text-decoration: underline;
+        }
+    </style>
+ 
+</head>
+<body>
+    <form id="form1" runat="server">
+            <div class="TopHead" align="center">
+                <img src="SRM.png" height="80px" class="SRMlogo" />
+                <h1 class="auto-style1">SRM Institute of Science and Technology</h1>
+                <br>
+                <div class="THsubtext">
+                    Approved by AICTE and Affiliated Constituent Institute of SRM, Chennai
+                </div>
+            </div>
+
+        <div class="HeroSection">
+           <div class="NavBar" align="center">
+                <div class="NbContents">
+                    <div class="firstbar bar">
+                        <a href="Home.aspx">Home</a> 
+                    </div>
+                    <div class="secondbar bar">
+                        <a href="Circular.aspx">Circular</a>
+                    </div>
+                    <div class="thirdbar bar">
+                            <div class="dropdown">
+                              <button class="dropbtn">Registration</button>
+                              <div class="dropdown-content">
+                              <a href="RegistrationStd.aspx" class="reg">Student Registration</a>
+                              <a href="RegistrationTea.aspx" class="reg">Teacher Registration</a>
+                             </div>
+                            </div>
+                    </div>
+                    <div class="fourthbar bar">
+                             <div class="dropdown">
+                              <button class="dropbtn">Login</button>
+                              <div class="dropdown-content" id="LoginButton">
+                              <a href="LoginStd.aspx" class="log">Student Login</a>
+                              <a href="LoginTea.aspx" class="log">Teacher Login</a>
+                             </div>
+                            </div>
+                    </div>
+                    <div class="fifthbar bar">
+                        <a href="https://www.srmist.edu.in/contact-us" target="_blank">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+           
+            <div class="classabovefooter" align="center">
+
+            </div>
+
+
+            <div class="bottomFooter" align="center">
+                <div class="row row1">
+                    <div class="col col1">
+                            <a href="https://www.srmist.edu.in/content/about-us"><h4>ABOUT US</h4></a>
+                            <p class="btmfootcontent">
+                                <a href="https://www.srmist.edu.in/content/about-us">Our Vision, </a>
+                                <a href="https://www.srmist.edu.in/content/about-us">Our Mission, </a>
+                                <a href="https://www.srmist.edu.in/content/about-us">Our Goals</a>
+                                <br>
+                                <a href="https://www.srmist.edu.in/content/about-us">Programs</a>
+                            </p>
+                    </div>
+                    <div class="col col2">
+                            <a href="https://www.srmist.edu.in/contact-us"><h4>CONTACT US</h4></a>
+                            <p class="btmfootcontent">
+                                SRMIST Kattankulathur, Chennai, Tamil Nadu 
+                                <br>
+                                SRMIST Ramapuram, Andhra Pradesh
+                                <br>
+                                SRMIST Modi Nagar, Ghaziabad, UP
+                                <br><br>
+                                <a href="https://twitter.com/srm_univ" target="_blank"><img src="Twt.png" height="30px" /> </a>&nbsp;
+                                <a href="https://www.instagram.com/srmuniversityofficial/?hl=en" target="_blank"><img src="Ins.png" height="30px" /></a>
+                                <br><br>
+                                <center>
+                                    <h4>Made by Shreyansh Kumar Gupta</h4>
+                                </center>
+                            </p>
+                        </div>
+                    <div class="col col3">
+                            <a href="https://www.srmist.edu.in/admission-international/content/maps-directions"><h4>MAP</h4></a>
+                            <p class="btmfootcontent">
+                                <a href="https://www.srmist.edu.in/aboutus/popup/srm_map.html" target="_blank">From Railway Station</a>
+                                <br>
+                                <a href="https://www.srmist.edu.in/aboutus/popup/rama_campus.html" target="_blank">Ramapuram Campus</a>
+                                <br>
+                                <a href="https://www.srmist.edu.in/aboutus/popup/vadapalani_campus.html" target="_blank">Vadapalani Campus</a>
+                                <br>
+                                <a href="https://www.srmist.edu.in/aboutus/popup/modi_campus.html" target="_blank">Modi Nagar Campus</a>
+                            </p>
+                    </div>
+                </div>
+            </div>
+    </form>
+</body>
+</html>
