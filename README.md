@@ -7,3 +7,39 @@ In this portal, there's a student and Teacher registrations and login. This is a
 # SCREENSHOTS
 
 # HOME
+
+![](Screenshots/1.png)
+
+![](Screenshots/2.png)
+
+# CIRCULAR
+
+![](Screenshots/3.png)
+
+# REGISTRATION for Students and Teachers
+
+![](Screenshots/4.png)
+
+![](Screenshots/5.png)
+
+# TEACHER LOGIN
+
+![](Screenshots/6.png)
+
+# TEACHER ACCOUNT DASHBOARD
+
+![](Screenshots/7.png)
+
+![](Screenshots/8.png)
+
+# DEAN ACCOUNT DASHBOARD
+
+![](Screenshots/9.png)
+
+# STUDENT LOGIN
+
+![](Screenshots/10.png)
+
+# STUDENT ACCOUNT DASHBOARD
+
+![](Screenshots/11.png)
